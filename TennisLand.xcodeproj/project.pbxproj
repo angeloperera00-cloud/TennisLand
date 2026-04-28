@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89048D662F96354200393D77 /* Characterselectview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89048D652F96354200393D77 /* Characterselectview.swift */; };
+		89048D682F96356D00393D77 /* Courtselectview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89048D672F96356D00393D77 /* Courtselectview.swift */; };
+		89048D6A2F96359300393D77 /* Winscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89048D692F96359300393D77 /* Winscreen.swift */; };
+		89048D6C2F9635AF00393D77 /* Settingsview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89048D6B2F9635AF00393D77 /* Settingsview.swift */; };
+		89048D6E2F9635D100393D77 /* Tutorialview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89048D6D2F9635D100393D77 /* Tutorialview.swift */; };
+		89048D702F97813C00393D77 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89048D6F2F97813C00393D77 /* SpriteKit.framework */; };
+		897D10552FA01D2C002A374D /* WatchInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 897D10542FA01D2C002A374D /* WatchInfo.plist */; };
+		89B550EE2F9EBAF200EC905A /* Watchgameview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B550ED2F9EBAF200EC905A /* Watchgameview.swift */; };
+		89B550F02F9EBB1F00EC905A /* Watchconnectivitymanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B550EF2F9EBB1F00EC905A /* Watchconnectivitymanager.swift */; };
+		89B550F22FA015B300EC905A /* TennisLandWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = PROD2 /* TennisLandWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A001 /* TennisLandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001 /* TennisLandApp.swift */; };
+		A002 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002 /* HomeView.swift */; };
+		A003 /* TennisScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003 /* TennisScene.swift */; };
+		A005 /* MobileGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005 /* MobileGameView.swift */; };
+		A007 /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007 /* WatchSessionManager.swift */; };
+		A008 /* AirPlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008 /* AirPlayManager.swift */; };
+		A009 /* TennisLandWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009 /* TennisLandWatchApp.swift */; };
+		A010 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E001 /* SceneKit.framework */; };
+		A012 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E003 /* CoreMotion.framework */; };
+		A013 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E004 /* ReplayKit.framework */; };
+		A014 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E005 /* AVKit.framework */; };
+		A016 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E003 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89B550F52FA015B300EC905A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				89B550F22FA015B300EC905A /* TennisLandWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89048D652F96354200393D77 /* Characterselectview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characterselectview.swift; sourceTree = "<group>"; };
+		89048D672F96356D00393D77 /* Courtselectview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courtselectview.swift; sourceTree = "<group>"; };
+		89048D692F96359300393D77 /* Winscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Winscreen.swift; sourceTree = "<group>"; };
+		89048D6B2F9635AF00393D77 /* Settingsview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settingsview.swift; sourceTree = "<group>"; };
+		89048D6D2F9635D100393D77 /* Tutorialview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorialview.swift; sourceTree = "<group>"; };
+		89048D6F2F97813C00393D77 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS26.0.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
+		897D10542FA01D2C002A374D /* WatchInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WatchInfo.plist; sourceTree = "<group>"; };
+		89B550ED2F9EBAF200EC905A /* Watchgameview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watchgameview.swift; sourceTree = "<group>"; };
+		89B550EF2F9EBB1F00EC905A /* Watchconnectivitymanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watchconnectivitymanager.swift; sourceTree = "<group>"; };
+		89B550F12FA011A600EC905A /* TennisLand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TennisLand.entitlements; sourceTree = "<group>"; };
+		E001 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		E003 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		E004 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		E005 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		F001 /* TennisLandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisLandApp.swift; sourceTree = "<group>"; };
+		F002 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F003 /* TennisScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisScene.swift; sourceTree = "<group>"; };
+		F005 /* MobileGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileGameView.swift; sourceTree = "<group>"; };
+		F007 /* WatchSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionManager.swift; sourceTree = "<group>"; };
+		F008 /* AirPlayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPlayManager.swift; sourceTree = "<group>"; };
+		F009 /* TennisLandWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisLandWatchApp.swift; sourceTree = "<group>"; };
+		PROD1 /* TennisLand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisLand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		PROD2 /* TennisLandWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisLandWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		PH_FWKIPHONE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A010 /* SceneKit.framework in Frameworks */,
+				89048D702F97813C00393D77 /* SpriteKit.framework in Frameworks */,
+				A012 /* CoreMotion.framework in Frameworks */,
+				A013 /* ReplayKit.framework in Frameworks */,
+				A014 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		PH_FWKWATCH /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A016 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		GRP_FWKS /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89048D6F2F97813C00393D77 /* SpriteKit.framework */,
+				E001 /* SceneKit.framework */,
+				E003 /* CoreMotion.framework */,
+				E004 /* ReplayKit.framework */,
+				E005 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		GRP_GAMESCENE /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				F003 /* TennisScene.swift */,
+				F005 /* MobileGameView.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		GRP_IPHONE /* TennisLand */ = {
+			isa = PBXGroup;
+			children = (
+				89B550F12FA011A600EC905A /* TennisLand.entitlements */,
+				F001 /* TennisLandApp.swift */,
+				F002 /* HomeView.swift */,
+				GRP_GAMESCENE /* GameScene */,
+				GRP_WATCH_CONN /* WatchConnectivity */,
+				GRP_TV /* TV */,
+				89048D652F96354200393D77 /* Characterselectview.swift */,
+				89048D672F96356D00393D77 /* Courtselectview.swift */,
+				89048D692F96359300393D77 /* Winscreen.swift */,
+				89048D6B2F9635AF00393D77 /* Settingsview.swift */,
+				89048D6D2F9635D100393D77 /* Tutorialview.swift */,
+			);
+			path = TennisLand;
+			sourceTree = "<group>";
+		};
+		GRP_PRODS /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PROD1 /* TennisLand.app */,
+				PROD2 /* TennisLandWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		GRP_TV /* TV */ = {
+			isa = PBXGroup;
+			children = (
+				F008 /* AirPlayManager.swift */,
+			);
+			path = TV;
+			sourceTree = "<group>";
+		};
+		GRP_WATCH /* TennisLandWatch */ = {
+			isa = PBXGroup;
+			children = (
+				GRP_WATCHAPP /* WatchApp */,
+			);
+			path = TennisLandWatch;
+			sourceTree = "<group>";
+		};
+		GRP_WATCHAPP /* WatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				F009 /* TennisLandWatchApp.swift */,
+				89B550ED2F9EBAF200EC905A /* Watchgameview.swift */,
+				89B550EF2F9EBB1F00EC905A /* Watchconnectivitymanager.swift */,
+				897D10542FA01D2C002A374D /* WatchInfo.plist */,
+			);
+			path = WatchApp;
+			sourceTree = "<group>";
+		};
+		GRP_WATCH_CONN /* WatchConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				F007 /* WatchSessionManager.swift */,
+			);
+			path = WatchConnectivity;
+			sourceTree = "<group>";
+		};
+		ROOT = {
+			isa = PBXGroup;
+			children = (
+				GRP_IPHONE /* TennisLand */,
+				GRP_WATCH /* TennisLandWatch */,
+				GRP_FWKS /* Frameworks */,
+				GRP_PRODS /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TGT1 /* TennisLand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFGL1 /* Build configuration list for PBXNativeTarget "TennisLand" */;
+			buildPhases = (
+				PH_SRCIPHONE /* Sources */,
+				PH_FWKIPHONE /* Frameworks */,
+				PH_RESIPHONE /* Resources */,
+				89B550F52FA015B300EC905A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TennisLand;
+			productName = TennisLand;
+			productReference = PROD1 /* TennisLand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		TGT2 /* TennisLandWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFGL2 /* Build configuration list for PBXNativeTarget "TennisLandWatch" */;
+			buildPhases = (
+				PH_SRCWATCH /* Sources */,
+				PH_FWKWATCH /* Frameworks */,
+				PH_RESWATCH /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TennisLandWatch;
+			productName = TennisLandWatch;
+			productReference = PROD2 /* TennisLandWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					TGT1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					TGT2 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = CFGLPROJ /* Build configuration list for PBXProject "TennisLand" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ROOT;
+			productRefGroup = GRP_PRODS /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TGT1 /* TennisLand */,
+				TGT2 /* TennisLandWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		PH_RESIPHONE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		PH_RESWATCH /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897D10552FA01D2C002A374D /* WatchInfo.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		PH_SRCIPHONE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A001 /* TennisLandApp.swift in Sources */,
+				89048D6A2F96359300393D77 /* Winscreen.swift in Sources */,
+				A002 /* HomeView.swift in Sources */,
+				89048D6E2F9635D100393D77 /* Tutorialview.swift in Sources */,
+				A003 /* TennisScene.swift in Sources */,
+				89048D6C2F9635AF00393D77 /* Settingsview.swift in Sources */,
+				89048D662F96354200393D77 /* Characterselectview.swift in Sources */,
+				A005 /* MobileGameView.swift in Sources */,
+				A007 /* WatchSessionManager.swift in Sources */,
+				89048D682F96356D00393D77 /* Courtselectview.swift in Sources */,
+				A008 /* AirPlayManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		PH_SRCWATCH /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A009 /* TennisLandWatchApp.swift in Sources */,
+				89B550F02F9EBB1F00EC905A /* Watchconnectivitymanager.swift in Sources */,
+				89B550EE2F9EBAF200EC905A /* Watchgameview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC_PROJ_DEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC_PROJ_RELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC_TGT1_DEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TennisLand/TennisLand.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 3VZ994N5DL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Tennis Land uses motion to detect your swings";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					WatchConnectivity,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tennisland.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC_TGT1_RELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TennisLand/TennisLand.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 3VZ994N5DL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Tennis Land uses motion to detect your swings";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					WatchConnectivity,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tennisland.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC_TGT2_DEBUG /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VZ994N5DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Tennis Land uses motion to detect your tennis swings";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tennisland.app;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tennisland.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		BC_TGT2_RELEASE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VZ994N5DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Tennis Land uses motion to detect your tennis swings";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tennisland.app;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tennisland.app.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFGL1 /* Build configuration list for PBXNativeTarget "TennisLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC_TGT1_DEBUG /* Debug */,
+				BC_TGT1_RELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFGL2 /* Build configuration list for PBXNativeTarget "TennisLandWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC_TGT2_DEBUG /* Debug */,
+				BC_TGT2_RELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFGLPROJ /* Build configuration list for PBXProject "TennisLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC_PROJ_DEBUG /* Debug */,
+				BC_PROJ_RELEASE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PROJ /* Project object */;
+}
